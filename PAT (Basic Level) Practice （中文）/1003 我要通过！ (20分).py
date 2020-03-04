@@ -25,11 +25,6 @@ def check(input_str: str):
         return False
 
 
-def main():
-    n = int(input())
-    for s in range(n):
-        print("YES") if check(input()) else print('NO')
-
-
-if __name__ == '__main__':
-    main()
+n = int(input())
+for s in range(n):
+    print("YES") if check(input()) else print('NO')
